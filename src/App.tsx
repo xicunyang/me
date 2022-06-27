@@ -7,6 +7,28 @@ import code61 from "./../assets/61-code.png";
 import miniCode from "./../assets/mini-code.png";
 import code520 from "./../assets/520-code.png";
 
+const callMe = [
+  {
+    title: "掘金",
+    url: "https://juejin.cn/user/1802854802668446",
+  },
+  {
+    title: "Github",
+    url: "https://github.com/xicunyang",
+  },
+  {
+    title: "bilibili",
+    url: "https://space.bilibili.com/396601399?spm_id_from=333.1007.0.0",
+  },
+  {
+    title: "简书",
+    url: "https://www.jianshu.com/u/367746e792f6",
+  },
+  {
+    title: "微信",
+    url: "https://picture-voice-1301404888.cos.ap-nanjing.myqcloud.com/me/wechat.jpg",
+  },
+];
 const App = () => {
   console.log(location.href);
 
@@ -122,6 +144,22 @@ const App = () => {
       />
 
       <div className="footer">
+        <div className="call-me">
+          {callMe.map((item, idx) => {
+            return (
+              <span
+                key={idx}
+                onClick={() => {
+                  window.open(item.url);
+                }}
+              >
+                {item.title}
+                {idx + 1 !== callMe.length && " · "}
+              </span>
+            );
+          })}
+        </div>
+
         <div className="slogan">
           木头 · 一个喜欢取悦自己的开发同学 · 2022-06 · 北京
         </div>
