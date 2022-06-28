@@ -34,6 +34,9 @@ async function startSharp() {
   progressBar.start(imageTotal, 0);
 
   let sharpedCount = 0;
+  // '🎉🎉🎉
+  // 看到这里的你今天会有好心情
+  // 🎉🎉🎉
   filtedImgPath.forEach(async (imagePath: string) => {
     const imgPathArr = imagePath.split('.');
     imgPathArr[imgPathArr.length - 1] = 'webp';

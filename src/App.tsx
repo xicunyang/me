@@ -37,7 +37,7 @@ const App = () => {
       <Picture />
       <MePPT />
       <Products
-        title="项目"
+        title="小玩意"
         list={[
           {
             title: "Fuckdoc",
@@ -47,6 +47,7 @@ const App = () => {
             title: "MY-61",
             desc: (
               <div>
+                <div className="img-desc">送给你我的61礼物 🍭</div>
                 <img src={code61} width="240px" height="" />
               </div>
             ),
@@ -55,6 +56,7 @@ const App = () => {
             title: "MY-520",
             desc: (
               <div>
+                <div className="img-desc">送给女盆友的520礼物 💕</div>
                 <img src={code520} width="240px" height="" />
               </div>
             ),
@@ -63,6 +65,7 @@ const App = () => {
             title: "历旧弥新",
             desc: (
               <div>
+                <div className="img-desc">一款让你与旧照片交流的辅助拍照小程序 📷</div>
                 <img src={miniCode} width="240px" height="" />
               </div>
             ),
@@ -75,11 +78,11 @@ const App = () => {
             title: "Beauty-Enum",
             desc: (
               <div>
-                <div>一款让你项目中的枚举值活起来的工具</div>
-                <div style={{marginTop: "10px"}}>开发中...</div>
+                <div className="img-desc">一款让你项目中的枚举值活起来的工具</div>
+                <div className="sikaokaifa">思考 & 开发中...</div>
               </div>
             ),
-            width: 345,
+            // width: 345,
           },
         ]}
       />
