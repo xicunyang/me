@@ -2,6 +2,7 @@
   "name": "my-61",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://xicunyang.github.io/me",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js",

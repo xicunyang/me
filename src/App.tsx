@@ -40,6 +40,10 @@ const App = () => {
         title="小玩意"
         list={[
           {
+            title: "Fe-jump",
+            jumpUrl: "https://juejin.cn/post/7133219432234483725",
+          },
+          {
             title: "Fuckdoc",
             jumpUrl: "https://juejin.cn/post/7091583162597244941",
           },
@@ -89,6 +93,10 @@ const App = () => {
       <Products
         title="文章"
         list={[
+          {
+            title: "Fe-jump：一款辅助前端工程文件跳转的vscode插件",
+            jumpUrl: "https://juejin.cn/post/7133219432234483725",
+          },
           {
             title: "（来瞧瞧）它或许可以减轻你在维护组件文档时的痛苦",
             jumpUrl: "https://juejin.cn/post/7091583162597244941",

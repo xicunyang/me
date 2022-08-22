@@ -9,7 +9,7 @@ module.exports = merge(webpackBase, {
   mode: 'production',
   output: {
     path: path.join(__dirname, '../dist'),
-    publicPath: 'https://me-7g8ouvub0ffe9fba-1301404888.tcloudbaseapp.com/',
+    publicPath: '/me/',
     filename: '[name].[chunkhash:8].js',
   },
   cache: {
