@@ -3,9 +3,9 @@ import "./App.less";
 import Picture from "./components/picture";
 import MePPT from "./components/me-ppt";
 import Products from "./components/products";
-import code61 from "./../assets/61-code.png";
-import miniCode from "./../assets/mini-code.png";
-import code520 from "./../assets/520-code.png";
+import code61 from "./assets/61-code.png";
+import miniCode from "./assets/mini-code.png";
+import code520 from "./assets/520-code.png";
 
 const callMe = [
   {
